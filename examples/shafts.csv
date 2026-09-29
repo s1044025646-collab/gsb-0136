@@ -1,0 +1,9 @@
+anon_id,group,time,status,censor_reason
+P-0001,control,42.5,event,
+P-0002,control,77.0,event,
+P-0003,control,120.0,censored,study-end
+P-0004,control,120.0,event,
+P-0005,treated,60.0,censored,removed-from-service
+P-0006,treated,95.5,event,
+P-0007,treated,150.0,censored,study-end
+P-0008,treated,210.0,event,

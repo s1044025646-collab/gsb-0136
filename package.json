@@ -1,0 +1,23 @@
+{
+  "name": "lifetrial",
+  "version": "1.0.0",
+  "description": "Local backend for Kaplan-Meier survival curves, right-censoring analysis and two-group log-rank tests (synthetic parts lifetime data only).",
+  "type": "module",
+  "bin": {
+    "lifetrial": "src/cli/index.ts"
+  },
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+ "start": "tsx src/api/server.ts",
+ "demo": "tsx scripts/demo.ts",
+ "test": "tsx --test test/*.test.ts",
+ "typecheck": "tsc -p tsconfig.json --noEmit",
+ "clean": "node scripts/clean.mjs"
+  },
+  "engines": {
+    "node": ">=22.5.0"
+  },
+  "keywords": ["survival", "kaplan-meier", "censoring", "log-rank", "sqlite"],
+  "license": "MIT",
+  "devDependencies": {}
+}
